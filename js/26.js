@@ -19,6 +19,9 @@ const url = 'https://jsonplaceholder.typicode.com/comments';
 //     .catch(error => console.log(error.message))
 // }
 
+/*
+    En async await no se pueden atrapar errores de forma nativa
+*/
 const consultarAPI = async() => 
 {
     try 
